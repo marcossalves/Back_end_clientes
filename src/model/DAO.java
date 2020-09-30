@@ -147,7 +147,7 @@ public class DAO {
 				cliente.setCep(rs.getString(12));
 				cliente.setNomeusuario(rs.getString(13));
 				cliente.setSenha(rs.getString(14));
-				con.close();
+				
 			}
 
 		} catch (Exception e) {
